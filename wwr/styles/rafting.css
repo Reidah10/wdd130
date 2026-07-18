@@ -1,7 +1,7 @@
 :root {
     --primary-color: #24577A;
     /* River Blue */
-    --secondary-color: #6B8E23;
+    --secondary-color: #6B8E23D9;
     /* Moss Green */
     --accent1-color: #D99058;
     /* Canyon Rock */
@@ -48,12 +48,26 @@ h2 {
     color: var(--primary-color);
 }
 
-nav ul {
+/*nav ul {
     display: flex;
     list-style: none;
     justify-content: space-evenly;
     align-items: center;
     padding: 0;
+}*/
+
+nav,
+p,
+section,
+article {
+    margin: 16px;
+    padding: 8px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav a {
@@ -64,16 +78,23 @@ nav a {
     font-weight: bold;
 }
 
-nav,
-p,
-section,
-article {
-    margin: 16px;
-    padding: 8px;
+section {
+    border: 2px solid var(--primary-color);
+    background: white;
+    margin: 2rem 0;
+    padding: 0;
 }
 
-section {
-    margin: 3rem 0;
+section h2 {
+    background: var(--primary-color);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: .75rem;
+}
+
+section p {
+    padding: 1rem;
 }
 
 .socialmedia a {
@@ -95,7 +116,7 @@ section {
     width: 100%;
     padding: .75rem;
     text-align: center;
-    background-color: rgba(36, 87, 122, .75);
+    background-color: var(--secondary-color);
     color: #fff
 }
 
