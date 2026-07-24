@@ -86,7 +86,7 @@ article {
     padding: .75rem;
     text-align: center;
     background-color: var(--secondary-color);
-    color: #fff
+    color: white;
 }
 
 .hero article {
