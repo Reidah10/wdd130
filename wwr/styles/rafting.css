@@ -1,7 +1,7 @@
 :root {
     --primary-color: #24577A;
     /* River Blue */
-    --secondary-color: #6B8E23D9;
+    --secondary-color: #4F772DD9;
     /* Moss Green */
     --accent1-color: #D99058;
     /* Canyon Rock */
@@ -68,12 +68,6 @@ p {
 
 article {
     margin: 1rem;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .hero {
