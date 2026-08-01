@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us | White Water Rafting</title>
-    <meta name="description" content="This is the contact page of the rafting website.">
+    <meta name="description"
+      content="This is the contact page of the rafting website that allows someone to sign up for the monthly newsletter.">
     <meta name="author" content="Reid Howard">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -49,16 +50,19 @@
                 <p>Message Purpose</p>
 
                 <div class="radio-group">
-                    <label><input type="radio" name="purpose"> General Inquiry</label>
-                    <label><input type="radio" name="purpose"> Reservation Question</label>
-                    <label><input type="radio" name="purpose"> Website Suggestion</label>
+                    <label><input type="radio" id="general" name="purpose"> General Inquiry</label>
+                    <label><input type="radio" id="reservation" name="purpose"> Reservation
+                        Question</label>
+                    <label><input type="radio" id="suggestion" name="purpose"> Website
+                        Suggestion</label>
                 </div>
 
                 <label for="message">Message</label>
                 <textarea id="message" name="message"></textarea>
 
                 <div class="subscribe">
-                    <label><input type="checkbox" name="subscribe">Please subscribe me to the
+                    <label><input type="checkbox" id="subscribe" name="subscribe">Please subscribe
+                        me to the
                         monthly
                         newsletter</label>
                 </div>

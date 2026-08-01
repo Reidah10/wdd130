@@ -203,7 +203,6 @@ footer {
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
     padding: 1rem;
-    align-items: space-around;
 }
 
 .employee-images figure {
@@ -214,7 +213,6 @@ footer {
     width: 75%;
     height: 175px;
     object-fit: cover;
-    align-items: space-around;
 }
 
 h2 {
