@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | White Water Rafting</title>
+    <meta name="description" content="This is the contact page of the rafting website.">
+    <meta name="author" content="Reid Howard">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/rafting_logo.jpg" alt="Rafting Logo">
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+
+        <section class="contact-info">
+            <h1>Raging Rapids Rafting</h1>
+            <p>123 Main River Street</p>
+            <p>Lehi, Utah</p>
+            <p>+1 999 999 9999</p>
+            <p>info@ragingrapids.com</p>
+        </section>
+        <section class="contact-content">
+            <section class="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20082.325287503307!2d-110.79899843185893!3d43.553199303451954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1785602390403!5m2!1sen!2sus"
+                  allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin">
+                </iframe>
+            </section>
+
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+
+                <p>Message Purpose</p>
+
+                <div class="radio-group">
+                    <label><input type="radio" name="purpose"> General Inquiry</label>
+                    <label><input type="radio" name="purpose"> Reservation Question</label>
+                    <label><input type="radio" name="purpose"> Website Suggestion</label>
+                </div>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+
+                <div class="subscribe">
+                    <label><input type="checkbox" name="subscribe">Please subscribe me to the
+                        monthly
+                        newsletter</label>
+                </div>
+                <button type="submit">
+                    Get in Touch!
+                </button>
+            </form>
+        </section>
+        <h2>We Are Here To Serve You!</h2>
+        <div class="employee-images">
+            <figure>
+                <img src="images/kyle.jpg" alt="Lead Guide Kyle">
+                <figcaption>Kyle — Lead Guide</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/luis.jpg" alt="Safety Instructor Luis">
+                <figcaption>Luis — Safety Instructor</figcaption>
+            </figure>
+
+            <figure>
+                <img src="images/jared.jpg" alt="Equipment Coordinator Jared">
+                <figcaption>Jared — Equipment Coordinator</figcaption>
+            </figure>
+
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 | Raging Rapids Rafting | Reid Howard</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Social Media Icon" width="35">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram Social Media Icon" width="35">
+            </a>
+            <a href="https://x.com">
+                <img src="images/x_logo.svg" alt="X Social Media Icon" width="35">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>

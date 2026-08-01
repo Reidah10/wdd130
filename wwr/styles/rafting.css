@@ -165,3 +165,92 @@ footer {
 .socialmedia a {
     text-decoration: none;
 }
+
+.contact-info {
+    display: grid;
+    text-align: center;
+}
+
+.contact-info h1 {
+    color: var(--primary-color);
+    margin: 1rem 0;
+}
+
+.contact-info p {
+    font-family: var(--body-font);
+    color: var(--primary-color);
+    font-size: 1.25rem;
+    padding: 0;
+    margin: .5rem;
+}
+
+.contact-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+    margin: 1.5rem 0;
+}
+
+.map iframe {
+    width: 100%;
+    height: 410px;
+    border: none;
+}
+
+.employee-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    align-items: space-around;
+}
+
+.employee-images figure {
+    text-align: center;
+}
+
+.employee-images img {
+    width: 75%;
+    height: 175px;
+    object-fit: cover;
+    align-items: space-around;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+input,
+textarea {
+    padding: .5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.radio-group {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.radio-group input {
+    width: auto;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.subscribe input {
+    width: auto;
+    margin-right: 10px;
+}
